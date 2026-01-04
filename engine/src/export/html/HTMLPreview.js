@@ -28,7 +28,7 @@ Wick.HTMLPreview = class {
      */
     static async previewProject(project, callback) {
         Wick.HTMLExport.bundleProject(project, async html => {
-            
+            /*
             // try creating preview window with tauri api... 
             try {
                 
@@ -57,6 +57,7 @@ Wick.HTMLPreview = class {
             } catch (e) {
                 console.error('Tauri error: ', e);
             }
+            */
 
             // no tauri? No problemo, open browser
             console.warn('Opening browser preview');

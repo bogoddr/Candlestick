@@ -56,11 +56,13 @@ import WickCodeEditor from './PopOuts/WickCodeEditor/WickCodeEditor';
 
 import EditorWrapper from './EditorWrapper';
 
-
+/*
 import { readFile } from '@tauri-apps/plugin-fs'
 import { invoke } from '@tauri-apps/api/core';
+*/
 
 // app wick, for handling directly opening files from finder/ file explorer
+/*
 async function loadPathIntoEditor(editorThis, filePath) {
     try {
 
@@ -120,7 +122,7 @@ async function loadPathIntoEditor(editorThis, filePath) {
         editorThis.toast('Could not open file.', 'error')
     }
 }
-
+*/
 
 const { version } = require('../../package.json');
 
@@ -341,7 +343,7 @@ class Editor extends EditorCore {
 
         this.watchForHover();
 
-
+        /*
         // check to see if we're in the app
         if (window.__TAURI__) {
 
@@ -365,7 +367,7 @@ class Editor extends EditorCore {
             }, 200) // small delay
         }
 
-
+    */
     }
 
     componentDidUpdate = (prevProps, prevState) => {

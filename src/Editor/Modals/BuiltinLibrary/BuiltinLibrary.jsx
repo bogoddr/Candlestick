@@ -37,9 +37,11 @@ class BuiltinLibrary extends Component {
   }
 
   static get ROOT_ASSET_PATH () {
+    /*
     if (window.__TAURI__) {
       return 'builtinlibrary/'; // resources folder will be flattened
     }
+    */
     return process.env.PUBLIC_URL + '/builtinlibrary/';
   }
 
