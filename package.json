@@ -86,8 +86,8 @@
     "gulp-header": "^2.0.9",
     "gulp-rename": "^2.0.0",
     "gulp-uglify": "^3.0.2",
-    "shx": "^0.4.0",
-    "node-sass": "^9.0"
+    "sass": "^1.83.4",
+    "shx": "^0.4.0"
   },
   "overrides": {
     "form-data": "^4.0.4"
