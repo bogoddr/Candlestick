@@ -1,0 +1,14 @@
+[build]
+# Reduce parallelism to lower memory usage
+jobs = 1
+
+[profile.release]
+# Reduce optimization level to use less memory during compilation
+opt-level = 2
+# Disable link-time optimization to save memory
+lto = false
+# Reduce codegen units
+codegen-units = 1
+
+[target.x86_64-pc-windows-msvc]
+linker = "lld-link"

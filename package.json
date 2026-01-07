@@ -53,6 +53,7 @@
     "url-parse": "^1.5.10"
   },
   "scripts": {
+    "tauri": "tauri",
     "eject": "react-scripts eject",
     "start": "PORT=3006 react-scripts start",
     "build": "react-scripts build && echo 'candlestickers.app' > ./build/CNAME;",
@@ -78,6 +79,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "@tauri-apps/cli": "^2.9.6",
     "dotenv": "^8.2.0",
     "gh-pages": "^2.0.1",
     "gulp": "^4.0.2",
